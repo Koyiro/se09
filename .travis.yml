@@ -1,12 +1,12 @@
 language: java
-install: true
+#install: true
 
-branches:
-  only:
-  - master
+#branches:
+#  only:
+#  - master
 
 jdk:
   - oraclejdk8
 
-script:
-  - ./gradlew build --scan -s
+#script:
+#  - ./gradlew build --scan -s
