@@ -19,4 +19,4 @@ jdk:
 
 script:
   ./gradlew build
-  ./gradlew run
+  ./gradlew check
