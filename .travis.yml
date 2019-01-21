@@ -1,10 +1,6 @@
 language: java
 install: true
 
-branches:
-  only:
-  - master
-
 sudo: false
 addons:
   apt:
