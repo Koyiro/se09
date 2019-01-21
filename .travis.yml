@@ -3,9 +3,8 @@ install: true
 
 branches:
   only:
-  - master
+    - master
 
-sudo: false
 addons:
   apt:
     packages:
@@ -19,4 +18,3 @@ jdk:
 
 script:
   - ./gradlew build
-  - ./gradlew run
